@@ -1,3 +1,14 @@
 * {
     outline: dashed 1px red; /*this is for dev purposes only*/
 }
+
+@font-face {
+    font-family: Suthi Srisopha;
+    src: url(css/fonts/weather_sunday.otf);
+}
+
+h1 {
+    font-family: Suthi Srisopha;
+    font-size: 36px;
+    color: #000;
+}
