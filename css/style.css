@@ -12,12 +12,12 @@
     src: url(../css/fonts/delacorso_font.otf);
 }
 body {
-    
+    width: 900px;
     background-color: #fff;
     font-family: Arial, Helvetica, san-serif;
     font-display: auto;
     color: #000;
-    
+    margin: 0 auto;
 }
 
 h1 {
@@ -27,19 +27,54 @@ h1 {
 }
 
 h2 {
+    display: inline-block;
     font-family: weatherSundayFont;
     font-size: 36px;
     color: #000;
+    margin-top: 20px;
 }
 
 h6 {
+    display: block;
     font-size: 10px;
     color: #999;
+    
+}
+  
+header section {
+    width: 900px;
+    margin: 0 auto;
+}
+  
+header img {
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+  
+header li {
+    float: right;
+    margin-right: 2px;
 }
 
-.top-left {
-    
-    width: 901px;
-    margin: 0 auto;
-    
+.back-slash-img {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-header {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.printer {
+    float: right;
+}
+.main-img {
+    width: 900px;
+    height: 603px;
+    margin-right: auto;
+    margin-left: auto;
 }
