@@ -3,12 +3,43 @@
 }
 
 @font-face {
-    font-family: Suthi Srisopha;
-    src: url(css/fonts/weather_sunday.otf);
+    font-family: weatherSundayFont;
+    src: url(../css/fonts/weather_sunday.otf);
+}
+
+@font-face {
+    font-family: delacorsoFont;
+    src: url(../css/fonts/delacorso_font.otf);
+}
+body {
+    
+    background-color: #fff;
+    font-family: Arial, Helvetica, san-serif;
+    font-display: auto;
+    color: #000;
+    
 }
 
 h1 {
-    font-family: Suthi Srisopha;
+    font-family: delacorsoFont;
+    font-size: 40px;
+    color: #000;
+}
+
+h2 {
+    font-family: weatherSundayFont;
     font-size: 36px;
     color: #000;
+}
+
+h6 {
+    font-size: 10px;
+    color: #999;
+}
+
+.top-left {
+    
+    width: 901px;
+    margin: 0 auto;
+    
 }
