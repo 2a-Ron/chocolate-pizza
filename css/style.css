@@ -21,13 +21,14 @@ body {
 }
 
 h1 {
+    float: left;
     font-family: delacorsoFont;
     font-size: 40px;
     color: #000;
 }
 
 h2 {
-    display: inline-block;
+    float: left;
     font-family: weatherSundayFont;
     font-size: 36px;
     color: #000;
@@ -35,9 +36,15 @@ h2 {
 }
 
 h6 {
-    display: block;
+    float: left;
     font-size: 10px;
     color: #999;
+    margin-top: 55px;
+    
+}
+#pid {
+    float: left;
+    margin-top: 70px;
     
 }
   
@@ -74,7 +81,36 @@ header li {
 }
 .main-img {
     width: 900px;
-    height: 603px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.paper-img {
+    background-image: url(../img/list-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 305px;
+    background-attachment: scroll;
+    z-index: 0;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.left-form-li {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 2;
+    z-index: 1;
+
+}
+
+.right-form-li {
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    line-height: 2;
+    z-index: 1;
 }
