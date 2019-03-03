@@ -1,7 +1,7 @@
-* {
-    outline: dashed 1px red; /*this is for dev purposes only*/
+/* {
+    outline: dashed 1px red; /*this is for dev purposes only
 }
-
+*/
 @font-face {
     font-family: weatherSundayFont;
     src: url(../css/fonts/weather_sunday.otf);
@@ -33,6 +33,12 @@ h2 {
     font-size: 36px;
     color: #000;
     margin-top: 20px;
+}
+
+h5 {
+    display: block;
+    font-size: 10px;
+    color: #999;
 }
 
 h6 {
@@ -113,4 +119,27 @@ header li {
     margin-top: 30px;
     line-height: 2;
     z-index: 1;
+}
+
+.table-bottom {
+    width: 900px;
+}
+
+.td-img {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.td-btn {
+    text-align: center;    
+    justify-content: center;
+    align-content: center;
+    
+}
+
+footer {
+    text-align: center;    
+    justify-content: center;
+    align-content: center;
 }
